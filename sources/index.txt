@@ -1,3 +1,6 @@
+.. impress::
+   :func: linear
+
 =======================
 Wake up the geek way!
 =======================
