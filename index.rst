@@ -167,7 +167,7 @@ Et le matin
 
 Check le pseudo, l'idle, puis sonne. Racroche au bout de 15s.
 
-Ne réveil pas si on est réveillé!
+Ne réveil pas si on est réveillé. Tadaah!
 
 Links
 =====
