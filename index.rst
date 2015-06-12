@@ -43,7 +43,8 @@ La bougeotte
 
 - Vivre sans meuble
 
-- Avec le moins d'éléctronique possible: un vieux MacBook, un vieux android, un téléphone voip.
+- Avec le moins d'électronique possible: un vieux MacBook, un vieux android, un
+  téléphone voip.
 
 Du coup...
 ==========
@@ -94,6 +95,10 @@ Module introduit dans python3.4 permettant l'asynchrone sans de code spaghetti
 Qu'est ce que le spaghetti?
 =============================
 
+Javascript!
+
+Des callback de callback de callback
+
 .. code-block:: javascript
 
     $.get('/', function(data) {
@@ -107,6 +112,8 @@ Qu'est ce que le spaghetti?
 
 Avec asyncio
 ============
+
+Pas de callback. Lecture linéaire compréhensible.
 
 .. code-block:: python
 
@@ -130,7 +137,9 @@ Le meilleur réveil du monde
 
 - irc privé bearstech
 
-- vm bearstech + tmux + irssi
+- vm bearstech en DC + tmux + irssi
+
+- serveur asterisk
 
 - irc3 + aiocron + panoramisk
 
@@ -155,6 +164,10 @@ Et le matin
     2015-06-12 09:00:16 INFO Hangup <Message ...> after 15s
     2015-06-12 09:00:16 INFO irc3.alarm.gawel is ringing
     2015-06-12 09:00:16 INFO Hangup <Message ...> after 0s
+
+Check le pseudo, l'idle, puis sonne. Racroche au bout de 15s.
+
+Ne réveil pas si on est réveillé!
 
 Links
 =====
