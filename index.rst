@@ -1,3 +1,6 @@
+.. impress::
+   :func: linear
+
 =======================
 Wake up the geek way!
 =======================
@@ -52,21 +55,12 @@ Du coup...
 - Sédentarisation pour le hors saison...
 
 Sunset
-====
+=======
 
 .. step::
    :hide-title: true
 
 .. figure:: static/sunset.jpg
-
-Surf
-====
-
-.. step::
-   :hide-title: true
-
-.. figure:: static/surfbikerack2.jpg
-
 
 Résultat
 ========
@@ -80,6 +74,17 @@ Résultat
 - Plus d'éléctronique
 
 - Plein de nouveaux projets python!
+
+- Et...
+
+Surf
+====
+
+.. step::
+   :hide-title: true
+
+.. figure:: static/surfbikerack2.jpg
+
 
 asyncio
 =======
@@ -123,6 +128,28 @@ Cas d'utilisation
 Le meilleur réveil du monde
 ===========================
 
-irc bearstech + irssi + irc3 + aiocron + panoramisk
+- irc privé bearstech
+
+- vm bearstech + tmux + irssi
+
+- irc3 + aiocron + panoramisk
 
 
+Dans la vrai fausse vie
+=======================
+
+.. figure:: static/irssi.jpg
+
+Et le matin
+===========
+
+::
+
+    2015-06-12 09:00:00 INFO alarm matin launched
+    2015-06-12 09:00:00 INFO ison {'names': ['gawel']}
+    2015-06-12 09:00:00 INFO whois {'idle': '31821', ...}
+    2015-06-12 09:00:00 INFO Ring matin for gawel
+    2015-06-12 09:00:01 INFO irc3.alarm.gawel is ringing
+    2015-06-12 09:00:16 INFO Hangup <Message ...> after 15s
+    2015-06-12 09:00:16 INFO irc3.alarm.gawel is ringing
+    2015-06-12 09:00:16 INFO Hangup <Message ...> after 0s
