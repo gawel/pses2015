@@ -165,9 +165,9 @@ Et le matin
     2015-06-12 09:00:16 INFO irc3.alarm.gawel is ringing
     2015-06-12 09:00:16 INFO Hangup <Message ...> after 0s
 
-Check le pseudo, l'idle, puis sonne. Racroche au bout de 15s.
+Check le pseudo, l'idle, puis sonne. Raccroche au bout de 15s.
 
-Ne réveil pas si on est réveillé. Tadaah!
+Ne réveille pas si on est réveillé. Tadaah!
 
 Links
 =====
