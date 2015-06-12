@@ -51,6 +51,14 @@ Du coup...
 
 - Sédentarisation pour le hors saison...
 
+Sunset
+====
+
+.. step::
+   :hide-title: true
+
+.. figure:: static/sunset.jpg
+
 Surf
 ====
 
@@ -76,11 +84,9 @@ Résultat
 asyncio
 =======
 
-Module introduit dans python3.4 permettant l'asynchrone.
+Module introduit dans python3.4 permettant l'asynchrone sans de code spaghetti
 
-Pas de code spaghetty
-
-Qu'est ce que le spagetty ?
+Qu'est ce que le spaghetti?
 =============================
 
 .. code-block:: javascript
