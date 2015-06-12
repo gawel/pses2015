@@ -45,7 +45,8 @@
 <ul class="simple">
 <li>Devenir mobile</li>
 <li>Vivre sans meuble</li>
-<li>Avec le moins d&#8217;éléctronique possible: un vieux MacBook, un vieux android, un téléphone voip.</li>
+<li>Avec le moins d&#8217;électronique possible: un vieux MacBook, un vieux android, un
+téléphone voip.</li>
 </ul>
 </div>
 <div class="step slide section" data-x="5000" id="du-coup">
@@ -85,6 +86,8 @@
 </div>
 <div class="step slide section" data-x="10000" id="qu-est-ce-que-le-spaghetti">
 <h1>Qu&#8217;est ce que le spaghetti?<a class="headerlink" href="#qu-est-ce-que-le-spaghetti" title="Permalink to this headline">¶</a></h1>
+<p>Javascript!</p>
+<p>Des callback de callback de callback</p>
 <div class="highlight-javascript"><div class="highlight"><pre><span class="nx">$</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
     <span class="nx">$</span><span class="p">.</span><span class="nx">post</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
         <span class="nx">setTimeout</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span> <span class="nx">$</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;/timeout&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
@@ -98,6 +101,7 @@
 </div>
 <div class="step slide section" data-x="11000" id="avec-asyncio">
 <h1>Avec asyncio<a class="headerlink" href="#avec-asyncio" title="Permalink to this headline">¶</a></h1>
+<p>Pas de callback. Lecture linéaire compréhensible.</p>
 <div class="highlight-python"><div class="highlight"><pre><span class="n">resp</span> <span class="o">=</span> <span class="k">yield from</span> <span class="n">http</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&#39;/&#39;</span><span class="p">)</span>
 <span class="n">resp</span> <span class="o">=</span> <span class="k">yield from</span> <span class="n">http</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s">&#39;/&#39;</span><span class="p">,</span> <span class="p">(</span><span class="k">yield from</span> <span class="n">resp</span><span class="o">.</span><span class="n">body</span><span class="p">))</span>
 <span class="k">yield from</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="o">.</span><span class="mi">1</span><span class="p">)</span>
@@ -117,7 +121,8 @@
 <h1>Le meilleur réveil du monde<a class="headerlink" href="#le-meilleur-reveil-du-monde" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
 <li>irc privé bearstech</li>
-<li>vm bearstech + tmux + irssi</li>
+<li>vm bearstech en DC + tmux + irssi</li>
+<li>serveur asterisk</li>
 <li>irc3 + aiocron + panoramisk</li>
 <li>téléphone voip</li>
 </ul>
