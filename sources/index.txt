@@ -134,6 +134,8 @@ Le meilleur réveil du monde
 
 - irc3 + aiocron + panoramisk
 
+- téléphone voip
+
 
 Dans la vrai fausse vie
 =======================
@@ -153,3 +155,14 @@ Et le matin
     2015-06-12 09:00:16 INFO Hangup <Message ...> after 15s
     2015-06-12 09:00:16 INFO irc3.alarm.gawel is ringing
     2015-06-12 09:00:16 INFO Hangup <Message ...> after 0s
+
+Links
+=====
+
+- `asyncio <https://docs.python.org/3.4/library/asyncio.html>`_
+
+- `Talk de Victor Stinner @PyconFr <http://www.infoq.com/fr/presentations/exploration-boucle-evenement-asyncio>`_ (`slides <https://speakerdeck.com/haypo/exploration-de-la-boucle-devenements-asyncio>`_)
+
+- `irc3 <https://github.com/gawel/irc3>`_
+
+- `Ces slides <https://gawel.github.io/pses2015/>`_
