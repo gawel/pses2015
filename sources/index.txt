@@ -92,6 +92,16 @@ asyncio
 
 Module introduit dans python3.4 permettant l'asynchrone sans de code spaghetti
 
+
+Async
+=====
+
+.. step::
+   :hide-title: true
+
+.. figure:: static/async.png
+
+
 Qu'est ce que le spaghetti?
 =============================
 
@@ -122,6 +132,10 @@ Pas de callback. Lecture linéaire compréhensible.
     yield from asyncio.sleep(.1)
     resp = yield from http.get('/timeout')
 
+
+
+
+
 Cas d'utilisation
 =================
 
@@ -144,7 +158,6 @@ Le meilleur réveil du monde
 - irc3 + aiocron + panoramisk
 
 - téléphone voip
-
 
 Dans la vrai fausse vie
 =======================
