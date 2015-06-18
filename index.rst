@@ -145,7 +145,6 @@ Le meilleur réveil du monde
 
 - téléphone voip
 
-
 Dans la vrai fausse vie
 =======================
 
@@ -178,4 +177,5 @@ Links
 
 - `irc3 <https://github.com/gawel/irc3>`_
 
-- `Ces slides <https://gawel.github.io/pses2015/>`_
+- Ces slides `https://gawel.github.io/pses2015/
+  <https://gawel.github.io/pses2015/>`_
